@@ -1,0 +1,107 @@
+.presentation_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .presentation_content {
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  }
+  
+  .presentation_content_infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Montserrat';
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 1.5em;
+  }
+  
+  .presentation_content_infos button {
+    display: inline;
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color:  rgba(255, 0, 0, 0.637);;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .presentation_content_infos button:hover {
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+  }
+  
+  .presentation_content_infos div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .presentation_content_host {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .presentation_content_host {
+      width: 100%;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  .presentation_content_host div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 0 10px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .presentation_content_host div {
+      gap: 0 5px;
+    }
+  }
+  
+  .presentation_content_host_name {
+    align-self: center;
+    font-size: 1.1em;
+    font-family: 'Montserrat';
+    color: rgba(255, 0, 0, 0.637);
+    flex-direction: column;
+  }
+  
+  .presentation_content_host img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+  
+  .presentation_content_host_stars {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .presentation_content_host_stars img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .presentation_content_host_stars img {
+      width: 20px;
+      height: 20px;
+    }
+  }

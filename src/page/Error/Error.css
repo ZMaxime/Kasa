@@ -1,0 +1,37 @@
+.error {
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    padding-bottom: 40px;
+    color: rgba(255, 0, 0, 0.637);
+  }
+  
+  .error_infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 300px);
+  }
+  
+  .error_infos_title {
+    font-weight: 700;
+    font-size: 288px;
+    @media screen and (max-width: 768px) {
+      font-size: 140px;
+    }
+  }
+  
+  .error_infos_content {
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  .error_infos_return {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 2em;
+  }

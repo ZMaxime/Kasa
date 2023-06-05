@@ -1,0 +1,19 @@
+.home_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Montserrat';
+    border-radius: 25px;
+    width: 95%;
+    margin: 0 auto;
+    @media screen and (max-width: 1230px) {
+      gap: 25px;
+      padding: 25px 15px;
+    }
+    @media screen and (max-width: 550px) {
+      width: 100%;
+    }
+  }
